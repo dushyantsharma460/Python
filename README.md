@@ -53,6 +53,7 @@ bash
 Copy
 Edit
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
+
 3. Start Jupyter Notebook
 bash
 Copy
