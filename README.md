@@ -1,61 +1,37 @@
-📊 Python for Data Science – Practice Repository
-This repository contains hands-on Python code and examples focused on Data Science, helping you practice key concepts including data analysis, visualization, statistics, and machine learning.
+# 📘 Learning Python Programming
 
-🧠 What You'll Learn
-✅ Python basics for data science
+Welcome to my Python programming learning repository!  
+This project is a collection of notes, code snippets, mini-projects, and exercises that I'm working on while learning Python.
 
-📊 Data analysis with Pandas & NumPy
+## 🐍 About Python
+Python is a powerful, easy-to-learn, and versatile programming language widely used in:
+- Web development
+- Data science
+- Machine learning
+- Automation
+- Game development
+- and more!
 
-📉 Data visualization using Matplotlib, Seaborn, and Plotly
+## 📚 What I’m Learning
 
-📦 Data preprocessing & cleaning
+Here are the topics I'm covering step-by-step:
 
-🧮 Basic statistics & probability
+- ✅ Python Basics (variables, data types, input/output)
+- ✅ Conditional Statements (`if`, `elif`, `else`)
+- ✅ Loops (`for`, `while`)
+- ✅ Functions and Scope
+- ✅ Lists, Tuples, Sets, and Dictionaries
+- ⏳ File Handling
+- ⏳ Exception Handling
+- ⏳ Object-Oriented Programming (OOP)
+- ⏳ Modules and Packages
+- ⏳ Libraries (like `math`, `datetime`, `random`, etc.)
+- ⏳ Mini Projects and Practice Problems
 
-🤖 Introduction to machine learning with Scikit-learn
-
-🗃️ Working with CSV, Excel, and JSON files
-
-🛠 Tech Stack
-Python 3.x
-
-Jupyter Notebook
-
-Libraries:
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Plotly
-
-Scikit-learn
+> I will update this list as I continue learning!
 
 
-🚀 Getting Started
-1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/dushyantsharma460/Python.git
-2. Install requirements
-bash
-Copy
-Edit
-pip install -r requirements.txt
-or install manually:
+Make sure you have Python installed. You can check using:
 
-bash
-Copy
-Edit
-pip install numpy pandas matplotlib seaborn plotly scikit-learn
-
-3. Start Jupyter Notebook
-bash
-Copy
-Edit
-jupyter notebook
+```bash
+python --version
