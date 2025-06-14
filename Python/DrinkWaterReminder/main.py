@@ -2,19 +2,17 @@
 # I am using this library :-   https://pypi.org/project/plyer/      -> also install this library
 # This is for documentation:-  https://plyer.readthedocs.io/en/latest/
 
-import time 
+import time
 from plyer import notification
+from datetime import datetime
 
 while True:
-    print("Please sip some water !")
+    current_time = datetime.now().strftime('%H:%M:%S')
+    print(f"[{current_time}] 💧 Please sip some water!")
     notification.notify(
-    title="💧 Time to Drink Water!",
-    message="Stay hydrated. Take a sip now!",
-    timeout=10,  # seconds
-    app_name="Hydration Reminder"
-)
-
-    # time.sleep(3)       # Give time in second 
-    time.sleep(60 * 60)        # Work in 1 hour of interval
-
-# You need to also set the environment for dbus
+        title=f"💧 Time to Drink Water! {current_time}",
+        message="Stay hydrated. Take a sip now!",
+        timeout=10,
+        app_name="Hydration Reminder"
+    )
+    time.sleep(3)  # Use 60 * 60 for 1 hour
